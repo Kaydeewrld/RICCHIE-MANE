@@ -46,7 +46,11 @@
     <link rel="stylesheet" href="assets/css/animate.css" />
     <link rel="stylesheet" href="assets/css/lineicons.css" />
     <link rel="stylesheet" href="assets/css/ud-styles.css" />
-  </head>
+  
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<script type="text/javascript" src="engine0/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section --></head>
   <body>
     <!-- ====== Header Start ====== -->
     <header class="ud-header">
@@ -70,7 +74,7 @@
                   </li>
 
                   <li class="nav-item">
-                    <a class="ud-menu-scroll" href="#about"></a>
+                    <a class="ud-menu-scroll" href="about.html"></a>
                   </li>
                   <li class="nav-item">
                     <a class="ud-menu-scroll" href="#pricing"></a>
@@ -80,7 +84,7 @@
                   </li>
 
                   <li class="nav-item">
-                    <a class="ud-menu-scroll" href="#about">About</a>
+                    <a class="ud-menu-scroll" href="about.html">About</a>
                   </li>
                   <li class="nav-item">
                     <a class="ud-menu-scroll" href="#pricing">Videos</a>
@@ -147,59 +151,63 @@
     </header>
     <!-- ====== Header End ====== -->
 
-    <!-- ====== Hero Start ====== -->
-    <section class="ud-hero" id="home">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="ud-hero-content wow fadeInUp" data-wow-delay=".2s">
-              <h1 class="ud-hero-title">
-                Open-Source Web Template for SaaS, Startup, Apps, and More
-              </h1>
-              <p class="ud-hero-desc">
-                Multidisciplinary Web Template Built with Your Favourite
-                Technology - HTML Bootstrap, Tailwind and React NextJS.
-              </p>
-              <ul class="ud-hero-buttons">
-                <li>
-                  <a href="https://links.uideck.com/play-bootstrap-download" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-white-btn">
-                    Download Now
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/uideck/play-bootstrap" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-link-btn">
-                    Learn More <i class="lni lni-arrow-right"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div
-              class="ud-hero-brands-wrapper wow fadeInUp"
-              data-wow-delay=".3s"
-            >
-              <img src="assets/images/hero/brand.svg" alt="brand" />
-            </div>
-            <div class="ud-hero-image wow fadeInUp" data-wow-delay=".25s">
-              <img src="assets/images/hero/hero-image.svg" alt="hero-image" />
-              <img
-                src="assets/images/hero/dotted-shape.svg"
-                alt="shape"
-                class="shape shape-1"
-              />
-              <img
-                src="assets/images/hero/dotted-shape.svg"
-                alt="shape"
-                class="shape shape-2"
-              />
-            </div>
+    
+	
+  <!-- ====== Hero Start ====== -->
+  <section class="ud-hero" id="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="ud-hero-content wow fadeInUp" data-wow-delay=".2s">
+            <!-- <h1 class="ud-hero-title">
+              Open-Source Web Template for SaaS, Startup, Apps, and More
+            </h1> -->
+            <!-- <p class="ud-hero-desc">
+              Multidisciplinary Web Template Built with Your Favourite
+              Technology - HTML Bootstrap, Tailwind and React NextJS.
+            </p> -->
+            <ul class="ud-hero-buttons">
+              <li>
+                <!-- <a href="https://links.uideck.com/play-bootstrap-download" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-white-btn">
+                  Download Now
+                </a> -->
+              </li>
+              <!-- <li>
+                <a href="https://github.com/uideck/play-bootstrap" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-link-btn">
+                  Learn More <i class="lni lni-arrow-right"></i>
+                </a> -->
+              </li>
+            </ul>
+          </div>
+          <div
+            class="ud-hero-brands-wrapper wow fadeInUp"
+            data-wow-delay=".3s"
+          >
+            <a href="#"><img src="music_icon-removebg-preview.png" alt="brand" /></a>
+          </div>
+          <div class="ud-hero-image wow fadeInUp" data-wow-delay=".25s">
+            <!-- <img src="assets/images/hero/hero-image.svg" alt="hero-image" /> -->
+            <img
+              src="assets/images/hero/dotted-shape.svg"
+              alt="shape"
+              class="shape shape-1"
+              id="shape-shape-2"
+            />
+            <img
+              src="assets/images/hero/dotted-shape.svg"
+              alt="shape"
+              class="shape shape-2"
+              id="shape-shape-2"
+            />
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
     <!-- ====== Hero End ====== -->
 
     <!-- ====== Features Start ====== -->
-    <section id="features" class="ud-features">
+    <!-- <section id="features" class="ud-features">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
@@ -280,7 +288,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- ====== Features End ====== -->
 
     <!-- ====== About Start ====== -->
@@ -289,25 +297,20 @@
         <div class="ud-about-wrapper wow fadeInUp" data-wow-delay=".2s">
           <div class="ud-about-content-wrapper">
             <div class="ud-about-content">
-              <span class="tag">About Us</span>
-              <h2>Brilliant Toolkit to Build Nextgen Website Faster.</h2>
+              <span class="tag">GET TO KNOW</span>
+              <h2>RICCHIE MANE</h2>
               <p>
-                The main ‘thrust’ is to focus on educating attendees on how to
-                best protect highly vulnerable business applications with
-                interactive panel discussions and roundtables led by subject
-                matter experts.
+                Welcome to the vibrant world of <b class="redder">Ricchie Mane</b> ! With a unique blend of Afrobeats, he captivates audiences worldwide with his soulful melodies and electrifying performances.
+                Born from a passion for music and a dedication to storytelling, Ricchie Mane weaves together captivating lyrics and infectious beats that resonate with listeners of all backgrounds. He draws inspiration from Wizkid, infusing his music with authenticity and raw emotion.
               </p>
-
               <p>
-                The main ‘thrust’ is to focus on educating attendees on how to
-                best protect highly vulnerable business applications with
-                interactive panel.
+                From intimate acoustic sessions to energetic live shows, Ricchie Mane brings his music to life on stage, creating unforgettable moments for fans to cherish. With his dynamic range and stage presence, he effortlessly connect with audiences, leaving a lasting impression wherever he performs.
               </p>
-              <a href="javascript:void(0)" class="ud-main-btn">Learn More</a>
+              <a href="javascript:void(0)" class="ud-main-btn">Listen</a>
             </div>
           </div>
           <div class="ud-about-image">
-            <img src="assets/images/about/about-image.svg" alt="about-image" />
+            <img src="assets\images\DSC00949.jpg" alt="about-image" />
           </div>
         </div>
       </div>
@@ -320,12 +323,12 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="ud-section-title mx-auto text-center">
-              <span>Pricing</span>
-              <h2>Our Pricing Plans</h2>
-              <p>
+              <!-- <span>Pricing</span>
+              <h2>Our Pricing Plans</h2> -->
+              <!-- <p>
                 There are many variations of passages of Lorem Ipsum available
                 but the majority have suffered alteration in some form.
-              </p>
+              </p> -->
             </div>
           </div>
         </div>
@@ -337,22 +340,23 @@
               data-wow-delay=".15s"
             >
               <div class="ud-pricing-header">
-                <h3>STARTING FROM</h3>
-                <h4>$ 19.99/mo</h4>
+                <!-- <h3>Ricchie Mane</h3>
+                <h4>$$$$</h4> -->
               </div>
               <div class="ud-pricing-body">
-                <ul>
-                  <li>5 User</li>
-                  <li>All UI components</li>
-                  <li>Lifetime access</li>
+                <!-- <ul>
+                  <li>Live Performance</li>
+                  <li>Virtual Concerts</li>
+                  <li>Studio Sessions</li>
                   <li>Free updates</li>
-                  <li>Use on 1 (one) project</li>
-                  <li>4 Months support</li>
-                </ul>
+                  <li>Merchandise</li>
+                  <li>Co-signature</li>
+                </ul> -->
+                <img src="assets\images\DSC01150.jpg" alt="ricchie 4" class="imgtry">
               </div>
               <div class="ud-pricing-footer">
                 <a href="javascript:void(0)" class="ud-main-btn ud-border-btn">
-                  Purchase Now
+                  Gallery
                 </a>
               </div>
             </div>
@@ -365,21 +369,21 @@
               <span class="ud-popular-tag">POPULAR</span>
               <div class="ud-pricing-header">
                 <h3>STARTING FROM</h3>
-                <h4>$ 30.99/mo</h4>
+                <h4>$ 30.99</h4>
               </div>
               <div class="ud-pricing-body">
                 <ul>
-                  <li>5 User</li>
-                  <li>All UI components</li>
-                  <li>Lifetime access</li>
+                  <li>Live Performance</li>
+                  <li>Virtual Concerts</li>
+                  <li>Studio Sessions</li>
                   <li>Free updates</li>
-                  <li>Use on 1 (one) project</li>
-                  <li>4 Months support</li>
+                  <li>Merchandise</li>
+                  <li>Co-signature</li>
                 </ul>
               </div>
               <div class="ud-pricing-footer">
                 <a href="javascript:void(0)" class="ud-main-btn ud-white-btn">
-                  Purchase Now
+                  Book Now
                 </a>
               </div>
             </div>
@@ -390,22 +394,23 @@
               data-wow-delay=".15s"
             >
               <div class="ud-pricing-header">
-                <h3>STARTING FROM</h3>
-                <h4>$ 70.99/mo</h4>
+                <!-- <h3>STARTING FROM</h3>
+                <h4>$ 70.99/mo</h4> -->
               </div>
               <div class="ud-pricing-body">
-                <ul>
+                <!-- <ul>
                   <li>5 User</li>
                   <li>All UI components</li>
                   <li>Lifetime access</li>
                   <li>Free updates</li>
                   <li>Use on 1 (one) project</li>
                   <li>4 Months support</li>
-                </ul>
+                </ul> -->
+                <img src="assets\images\DSC00883.jpg" alt="tttt" class="imgtry">
               </div>
               <div class="ud-pricing-footer">
                 <a href="javascript:void(0)" class="ud-main-btn ud-border-btn">
-                  Purchase Now
+                  Merch Store
                 </a>
               </div>
             </div>
@@ -416,7 +421,7 @@
     <!-- ====== Pricing End ====== -->
 
     <!-- ====== FAQ Start ====== -->
-    <section id="faq" class="ud-faq">
+    <!-- <section id="faq" class="ud-faq">
       <div class="shape">
         <img src="assets/images/faq/shape.svg" alt="shape" />
       </div>
@@ -579,11 +584,11 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- ====== FAQ End ====== -->
 
     <!-- ====== Testimonials Start ====== -->
-    <section id="testimonials" class="ud-testimonials">
+    <!-- <section id="testimonials" class="ud-testimonials">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
@@ -732,11 +737,11 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- ====== Testimonials End ====== -->
 
     <!-- ====== Team Start ====== -->
-    <section id="team" class="ud-team">
+    <!-- <section id="team" class="ud-team">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
@@ -918,7 +923,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- ====== Team End ====== -->
 
     <!-- ====== Contact Start ====== -->
@@ -928,9 +933,8 @@
           <div class="col-xl-8 col-lg-7">
             <div class="ud-contact-content-wrapper">
               <div class="ud-contact-title">
-                <span>CONTACT US</span>
+                <span>Booking</span>
                 <h2>
-                  Let’s talk about <br />
                   Love to hear from you!
                 </h2>
               </div>
@@ -941,7 +945,7 @@
                   </div>
                   <div class="ud-info-meta">
                     <h5>Our Location</h5>
-                    <p>401 Broadway, 24th Floor, Orchard Cloud View, London</p>
+                    <p>401 Broadway, 24th Floor, Orchard Cloud View, Turkey</p>
                   </div>
                 </div>
                 <div class="ud-single-info">
@@ -949,9 +953,9 @@
                     <i class="lni lni-envelope"></i>
                   </div>
                   <div class="ud-info-meta">
-                    <h5>How Can We Help?</h5>
-                    <p>info@yourdomain.com</p>
-                    <p>contact@yourdomain.com</p>
+                    <h5>Wanna Collaborate?</h5>
+                    <p>info@ricchiemane.com</p>
+                    <p>contact@ricchiemane.com</p>
                   </div>
                 </div>
               </div>
@@ -969,7 +973,7 @@
                   <input
                     type="text"
                     name="fullName"
-                    placeholder="Adam Gelius"
+                    placeholder="RCA Record"
                   />
                 </div>
                 <div class="ud-form-group">
@@ -1010,7 +1014,7 @@
     <!-- ====== Contact End ====== -->
 
     <!-- ====== Footer Start ====== -->
-    <footer class="ud-footer wow fadeInUp" data-wow-delay=".15s">
+    <!-- <footer class="ud-footer wow fadeInUp" data-wow-delay=".15s">
       <div class="shape shape-1">
         <img src="assets/images/footer/shape-1.svg" alt="shape" />
       </div>
@@ -1241,7 +1245,7 @@
           </div>
         </div>
       </div>
-    </footer>
+    </footer> -->
     <!-- ====== Footer End ====== -->
 
     <!-- ====== Back To Top Start ====== -->
